@@ -39,5 +39,9 @@
 
 .span {
     color: #dd1010;
+
+    @media (max-width: 600px) {
+        width: 300px;
+    }
 }
 
