@@ -1,0 +1,41 @@
+.input_container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.input_area {
+    height: 48px;
+    width: 422px;
+    border: 1px solid var(--border-gray);
+    padding: 0px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 600px) {
+        width: 300px;
+    }
+}
+
+.input {
+    width: 100%;
+    outline: none;
+    height: 100%;
+    border: none;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    color: var(--text-gray);
+}
+
+.password_button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.span {
+    color: #dd1010;
+}
+

@@ -1,0 +1,16 @@
+.button {
+    font-size: 1.2rem;
+    height: 48px;
+    width: 422px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid var(--blue);
+    font-family: var(--font-visby), sans-serif;
+
+    
+    @media (max-width: 600px) {
+        width: 300px;
+    }
+}

@@ -1,0 +1,81 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+.auth_area {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.info_area {
+    width: 422px;
+    margin-bottom: 20px;
+
+    @media (max-width: 600px) {
+        width: 300px;
+    }
+}
+
+.h1 {
+    font-family: var(--font-visby);
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+}
+
+.input_area {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.new_password_area {
+    
+}
+
+.custom_input {
+    border-radius: 16px;
+}
+
+.list_area {
+    padding-left: 32px;
+    margin-top: 12px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.list_text {
+    font-size: 0.7rem;
+    color: var(--gray);
+    font-family: 'Inter', sans-serif;
+}
+
+.button_area {
+    margin-top: 32px;
+}
+
+.send_button {
+    background-color: var(--blue);
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+.cancel_text {
+    color: var(--blue)
+}

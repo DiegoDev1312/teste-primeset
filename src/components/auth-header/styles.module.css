@@ -1,0 +1,14 @@
+.header {
+    height: 64px;
+    width: 100%;
+    padding-left: 10px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 0;
+
+    @media (max-width: 600px) {
+        justify-content: center;
+    }
+}
